@@ -1,0 +1,15 @@
+/Users/thotsaphonjantree/playground/bt/C#/myApp/bin/Debug/net5.0/myApp.deps.json
+/Users/thotsaphonjantree/playground/bt/C#/myApp/bin/Debug/net5.0/myApp.runtimeconfig.json
+/Users/thotsaphonjantree/playground/bt/C#/myApp/bin/Debug/net5.0/myApp.runtimeconfig.dev.json
+/Users/thotsaphonjantree/playground/bt/C#/myApp/bin/Debug/net5.0/myApp.dll
+/Users/thotsaphonjantree/playground/bt/C#/myApp/bin/Debug/net5.0/ref/myApp.dll
+/Users/thotsaphonjantree/playground/bt/C#/myApp/bin/Debug/net5.0/myApp.pdb
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.csproj.AssemblyReference.cache
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.AssemblyInfoInputs.cache
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.AssemblyInfo.cs
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.csproj.CoreCompileInputs.cache
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.dll
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/ref/myApp.dll
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.pdb
+/Users/thotsaphonjantree/playground/bt/C#/myApp/obj/Debug/net5.0/myApp.genruntimeconfig.cache
