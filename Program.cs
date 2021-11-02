@@ -10,14 +10,13 @@ namespace myApp
     {
         TcpClient _tradeClient;
         SslStream _tradeStreamSSL;
-        string _host = "h28.p.ctrader.com";
-        int _tradePort = 5212;
+        string _host = "192.168.29.155";
+        int _tradePort = 55551;
         int _messageSequenceNumber = 1;
-        private string _username = "3006156";
-        private string _password = "sp0tw@re";
-        private string _senderCompID = "sales.3006156";
+        private string _password = "CC33A622C8ECA88F";
+        private string _senderCompID = "BTUAT";
         private string _senderSubID = "3006156";
-        private string _targetCompID = "CSERVER";
+        private string _targetCompID = "FIXUAT";
         public Blocktrade()
         {
             _tradeClient = new TcpClient(_host, _tradePort);
@@ -36,14 +35,7 @@ namespace myApp
             //Value is set in the 'config.properties' file (client side) as 'SERVER.POLLING.INTERVAL'.
             //30 seconds is default interval value. If HeartBtInt is set to 0, no heart beat message 
             //is required.
-            body.Append("108=" + "30" + "|");
-            // All sides of FIX session should have
-            //sequence numbers reset. Valid value
-            //is "Y" = Yes(reset).
-            body.Append("141=Y|");
-            //The numeric User ID. User is linked to SenderCompID (#49) value (the
-            //user’s organization).
-            body.Append("553=" + _username + "|");
+            body.Append("108=" + "60" + "|");
             //USer Password
             body.Append("554=" + _password + "|");
 
@@ -71,8 +63,6 @@ namespace myApp
             message.Append("49=" + _senderCompID + "|");
             // Message target. Valid value is "CSERVER"
             message.Append("56=" + _targetCompID + "|");
-            // Additional session qualifier. Possible values are: "QUOTE", "TRADE".
-            message.Append("57=" + "TRADE" + "|");
             // Assigned value used to identify specific message originator.
             message.Append("50=" + _senderSubID + "|");
             // Message Sequence Number
